@@ -563,26 +563,18 @@ def prediction_page():
             card_class = "result-positive" if pred[i] == 1 else "result-negative"
             status_emoji = "✅" if pred[i] == 1 else "❌"
             status_text = "Adoptée" if pred[i] == 1 else "Non adoptée"
-            
+
             st.markdown(f"""
             <div class="result-card {card_class} fade-in-up">
                 <div class="result-title">
                     {status_emoji} {emoji} {label}
                 </div>
                 <div class="result-description">
-                    <strong>Statut:</strong> {status_text} • <strong>Probabilité:</strong> {p:.1%}
-                    <br>
-                    <div style="margin-top: 8px;">
-                        <div style="background: #f0f0f0; border-radius: 10px; height: 8px; overflow: hidden;">
-                            <div style="background: {'#27AE60' if pred[i] == 1 else '#E74C3C'}; 
-                                        width: {p:.1%}; height: 100%; border-radius: 10px; 
-                                        transition: width 0.8s ease;"></div>
-                        </div>
-                    </div>
+                    <strong>Statut:</strong> {status_text} 
                 </div>
             </div>
             """, unsafe_allow_html=True)
-
+            
         # Résumé global amélioré
         st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
         
