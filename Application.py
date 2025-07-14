@@ -459,7 +459,7 @@ def home_page():
     <div class="description-box">
         <h3 style="color: var(--primary-color); margin-bottom: 1rem;">📋 À propos de cette application</h3>
         <p>
-           Cette application prédit les pratiques agroécologiques qu’un producteur de la région de Fatick est susceptible d’adopter, en fonction de sa zone géographique et de ses caractéristiques socio-économiques et institutionnelles.
+           Cette application prédit les pratiques agroécologiques qu’un producteur du département de Fatick est susceptible d’adopter, en fonction de sa zone géographique et de ses caractéristiques socio-économiques et institutionnelles.
         </p>
         <p style="margin-top: 1rem;">
             <strong>Pratiques analysées :</strong> Monoculture, rotation des cultures, culture en association, 
