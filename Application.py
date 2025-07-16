@@ -463,8 +463,7 @@ def home_page():
         </p>
         <p style="margin-top: 1rem;">
             <strong>Pratiques analysées :</strong> Monoculture, rotation des cultures, culture en association, 
-            et défrichement pour l'agriculture. Chaque prédiction est accompagnée d'une probabilité 
-            d'adoption et d'analyses détaillées pour faciliter la prise de décision.
+            et défrichement pour l'agriculture.
         </p>
     </div>
     """, unsafe_allow_html=True)
